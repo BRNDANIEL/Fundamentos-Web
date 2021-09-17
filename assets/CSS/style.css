@@ -1,0 +1,17 @@
+/*estilos da pagina index*/
+
+p {
+    font-size: 25px;
+    text-align: center;
+
+}
+h2,h1  {
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-flow: row;
+    flex-direction: initial;
+
+
+}
