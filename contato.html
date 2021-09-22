@@ -9,7 +9,7 @@
 </head>
 </head>
 <body>
-    <ul>
+    <ul class="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -18,19 +18,39 @@
     <h1>Entre em contato comigo</h1>
     <form>
         <label for="Nome">Nome:</label><br>
-        <input type="text" id="nome">
-        <br>
+        <input type="text" id="nome" onkeyup="validaNome()">
+        <div id="txtNome">
+        </div>
+        
         <br>
         <label for="Email">Email:</label><br>
-        <input type="email" id="email">
+        <input type="email" id="email" onkeyup="validaEmail()">
+        <div id="txtEmail">
+        </div>
+        
         <br>
         <br>
-        <label for="Assunto">Assunto:</label>
-         <textarea name="Assunto" id="Assunto" cols="30" rows="30"></textarea>
+        <label for="Assunto">Assunto:</label> <br>
+         <textarea name="Assunto" id="Assunto"  rows="5" cols="60" >
+         </textarea>
          <br>
          <br>
          <button>Enviar</button>
     </form>
+
+    <footer>
+        <div class="social"> 
+            <a href="https://github.com/BRNDANIEL" target="_blanck">
+            <img class="social"src="assets/img/github.png" alt="git logo" style="width: 40px" >
+        </a>
+        <a href="https://www.linkedin.com/in/bruno-daniel-b6289021b/" target="_blanck">
+            <img class="social" src="assets/img/linkedin.png" alt="linkedin logo" style="width: 40px;">
+        </a>
+              </div>
+         <H3>BRNDANIEL DEVELOPER &COPY;</H3>
     
+    </footer>
+    
+    <script src="assets/JS/Script.js"></script>
 </body>
 </html>
